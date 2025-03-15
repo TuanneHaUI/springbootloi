@@ -38,7 +38,7 @@
                        </tr>
                      </thead>
                      <tbody>
-                     <c:forEach items="listUser" var="user">
+                     <c:forEach items="${listUser}" var="user">
                        <tr>
                          <th scope="row">${user.id}</th>
                          <td>${user.fullName}</td>
